@@ -1,0 +1,77 @@
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.choices img{
+    height: 200px;
+    width: 200px;
+    gap: 16px;
+    background-size: contain; 
+    border-radius: 50px;
+    object-fit: cover;
+    
+}
+
+.choice {
+    margin: 10px;
+}
+
+.choices p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.choice img:hover{
+    border: 2px solid black;
+    opacity: .5;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+*{
+    font-family: monospace;
+    
+}
+body{
+    justify-content: center;
+}
+.main {
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+.score{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    gap: 40px ;
+    padding: 0vh 10vh;
+    
+}
+
+.result{
+    font-size: 50px;
+}
+button {
+    font-size: 22px;
+    gap: 15px;
+}
+.my-button {
+    gap: 45px;
+    
+}
+
+
+
+
